@@ -14,7 +14,11 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description:
+  ${data.description}
+
+  ## Languages Used to Build Project:
+  * ${data.languages}
 `;
 }
-
 module.exports = generateMarkdown;
