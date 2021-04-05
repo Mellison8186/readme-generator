@@ -1,8 +1,11 @@
-# sldjgljsdlkgjklds
+# Maribel's README Generator
 
   ## Table of contents
   
   * [Description](#Description)
+    
+  
+  * [Installation](#Installation)
     
   
   * [Usage](#Usage)
@@ -10,26 +13,27 @@
   
 
   ## Badge:
-  [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+  
+   [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
   ## Description:
-  sdlkgjlkjsdg
+  alkshdglajsdlkjglsajdn lfgkjalksd jflkasj dgklj alksdjg lkja sldgioas dhklgj l aisjdkl gjlkajsdk glkj sadlkj glksdj
 
-  ## Installation Information:
-  sdkgjlsjdlgjls
+  ## Installation:
+  gldskhk,gljasl dkglajsd gj laskjd glkas dklfhg kaj skgld jsfkljalk sjgf
 
-  ## Usage Information:
-  sdlkgjlsjdklgjlsdj
+  ## Usage:
+  dlkhsg lakshjdjfk lgjlaskjd gdsjgklasdgkljlasdjgjklhsa dl hlkas dgjlkajsd g
 
-  ## Contributing Credits:
-  sdlkjglsdkjglkjs
+  ## Credits:
+  Maribel
 
-  ## License Information:
+  ## License:
   
-  * VSCode
+  * MIT
   
 
   ## Questions:
-  lsdkjglsjdkg: https://github.com/lsdkjglsjdkg
+  Mellison8186: https://github.com/Mellison8186
   ### For any questions you can reach me at me email address below:
-  sdlgjlksjdg
+  maribel@test.com

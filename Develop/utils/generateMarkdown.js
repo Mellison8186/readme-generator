@@ -1,4 +1,4 @@
-// If there is no license, return an empty string
+// Badge appears based on license choice
 function licenseBadge(license) {
   console.log(license);
   if (license == 'MIT'){ 
@@ -19,13 +19,12 @@ function licenseBadge(license) {
   }
 };
 
-// If there is no license, return an empty string
+// Choose a license to add to the README
 function licenseSection(licenseSec) {
-  if (licenseSec.license === ''){
+  if (licenseSec === ''){
     return 
   }
   return licenseSec.map((item) => {
-    // console.log(item)
     return `
   * ${item}
   `
@@ -58,16 +57,16 @@ function generateMarkdown(data) {
   ## Description:
   ${data.description}
 
-  ## Installation Information:
-  ${data.install}
+  ## Installation:
+  ${data.installation}
 
-  ## Usage Information:
+  ## Usage:
   ${data.usage}
 
-  ## Contributing Credits:
+  ## Credits:
   ${data.credits}
 
-  ## License Information:
+  ## License:
   ${licenseSection(data.license)}
 
   ## Questions:
