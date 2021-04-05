@@ -12,11 +12,13 @@ const questions = () => {
             name: 'title',
             message: 'Enter Title of README'
         },
-        {
+
+          {
             type: 'checkbox',
             name: 'contents',
             message: 'Choose items for your table of contents:',
-            choices: ['Description', 'Installation', 'Usage', 'Credits', 'License','Questions']
+            default: '',
+            choices: ['Description', 'Installation', 'Usage', 'Credits', 'License', 'Questions']
           },
         {
             type: 'input',
@@ -39,10 +41,11 @@ const questions = () => {
             message: 'List all contributor names along with links to their GitHub profiles:'
         },
         {
-            type: 'list',
+            type: 'checkbox',
             name: 'license',
             message: 'Choose a license that will be used with this the app:',
-            choices: ['MIT', 'GitHub']
+            default: '',
+            choices: ['MIT', 'Markdown', 'Apache', 'VSCode']
         },
         {
             type: 'input',
