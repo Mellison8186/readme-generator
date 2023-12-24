@@ -12,7 +12,6 @@ const questions = () => {
             name: 'title',
             message: 'Enter Title of README'
         },
-
           {
             type: 'checkbox',
             name: 'contents',
